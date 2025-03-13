@@ -1,0 +1,10 @@
+1. focus vào học UVM + viết testplan
+2. Verify xem waveform debug được 1 2 IP
+    IP ? 
+3. Thêm 1 2 protocol như AHB 
+
+
+Protocol: AHB
+
+Digital Design, Digital Processing, CMOS, Computer Architecture.
+
