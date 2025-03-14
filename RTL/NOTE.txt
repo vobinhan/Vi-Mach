@@ -1,0 +1,54 @@
+THUẬT NGỮ:
+1. Synthesis: file RTL code -> file gate netlist
+    - Là quy trình chuyển đổi file RTL code -> file gate netlist. 
+    - file gate netlist: chứa các cell của thư viện công nghệ 
+    - Các cell kết nối với nhau -> tạo ra đúng chức năng như TRL code đã mô tả.
+
+
+
+1. Toán tử logic
+--------------------------------------------------
+XOR (^):
+    - Khi 1 trong 2 điều kiện đúng
+    - Trả về 1 khi số lượng bit 1 là lẻ
+
+OR (`):
+    - Khi cần kiểm tra ít nhất 1 điều kiện đúng 
+--------------------------------------------------
+
+NOT (~):
+    - Khi cần đảo ngược giá trị logic từ 1-0 0-1
+
+--------------------------------------------------
+AND (&):
+    - Khi kiểm tra cả 2 điều kiện đều đúng
+
+NAND (~&) 
+    - Phủ định AND
+    - Khi cần kiểm tra không phải 2 điều kiện đúng
+
+--------------------------------------------------
+NOR (`~)
+    - Khi cần kiểm tra không có điều kiện nào đúng.
+
+XNOR (~^)
+    - phủ định XOR
+    - Khi cần kiểm tra cả hai điều kiện cùng đúng hoặc cùng sai.
+
+====================================================================
+
+2. Toán tử so sánh
+3. Toán tử dịch bit
+4. Toán tử kết hợp
+    - Dùng trong biểu thức điều kiện
+        + &&
+        + !
+
+5. Toán tử ghép bit
+{} : Ghép bit (concatenation)
+    - {A, B}
+    - Khi cần ghép các bit của A và B thành một tín hiệu có độ dài lớn hơn.
+    
+{{}} : Lặp bit (replication)
+    - {2{A}}
+    - Khi cần lặp lại giá trị của A nhiều lần (ví dụ: {2{A}} tạo ra {A, A})
